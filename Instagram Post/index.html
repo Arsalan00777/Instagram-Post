@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram post</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <div class="above">
+            <div class="userInform">
+                <div class="userImg">
+                    <img src="Sea.jpg" alt="" class="cover">
+                </div>
+                <h3>arsalan._.amiirii<br><span>Sanandaj,Iran</span></h3>
+            </div>
+            <div>
+                <ion-icon name="ellipsis-vertical" class="menu" onclick="fmenu()"></ion-icon>
+            </div>
+        </div>
+        <div class="mainPics">
+            <img src="Sanandaj.jpg" alt="" class="cover">
+        </div>
+        <div class="theButton">
+            <div class="left">
+                <ion-icon name="heart-outline" class="btnLike" onclick="flike()"></ion-icon>
+                <ion-icon name="chatbubble-outline" class="btnComment" onclick="fcomment()"></ion-icon>
+                <ion-icon name="paper-plane-outline" class="btnShare" onclick="fshare()"></ion-icon>
+            </div>
+            <div class="right">
+                <ion-icon name="bookmark-outline" class="btnsave"></ion-icon>
+                <img src="" alt="" class="btnsave">
+            </div>
+        </div>
+        <h4 class="likes">
+            560 likes
+        </h4>
+        <h4 class="captions"><b>arsalan._.amiirii</b>Relax & watch the view</h4>
+        <h4 class="comments">View all 150 comments</h4>
+        <div class="add_a_comment">
+            <div class="userImg">
+                <img src="Sea.jpg" alt="">
+            </div>
+            <input type="text" class="theComment" placeholder="Add a comment...">
+        </div>
+        <h5 class="time">5 hours ago</h5>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
